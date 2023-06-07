@@ -1,0 +1,42 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.conteudo img {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.conteudo {
+    position: relative;
+    margin-bottom: 15px;
+    animation-name: aparecimento;
+    animation-duration: .8s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.conteudo h2 {
+    position: absolute;
+    top: 35%;
+    padding-left: 120px;
+    color: #fff;
+    font-size: 100px;
+    text-transform: uppercase;
+    
+}
+
+@keyframes aparecimento {
+    0% {
+        /* Começa fora da tela à direita */
+        opacity: 0%;
+        /* Começa com opacidade 0 */
+    }
+
+    100% {
+        opacity: 100%;
+        /* Termina com opacidade total */
+    }
+}

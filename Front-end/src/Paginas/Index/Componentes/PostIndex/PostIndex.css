@@ -1,0 +1,33 @@
+.post {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.alto{
+    width: 250px;
+    height: 250px;
+}
+
+.baixo {
+    color: #002dfd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.alto img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.baixo span {
+    font-size: 20px;
+}
+
+.likes {
+    display: flex;
+    align-self: end;
+}

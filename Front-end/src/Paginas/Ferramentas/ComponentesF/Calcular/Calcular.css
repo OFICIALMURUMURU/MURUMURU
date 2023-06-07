@@ -1,0 +1,70 @@
+.calculadoraEsquerda{
+    width: 50%;
+    display: block;
+    
+}
+.seletores{
+    display: flex;
+    margin: 80px 0 20px 0;
+    color: white;
+}
+.seletores h3{
+    margin-bottom: 4px;
+}
+.seletores article{
+    margin-right: 50px;
+}
+.calculadoraEsquerda{
+    margin-left: 80px;
+}
+.seletores select{
+    background-color: #11145C;
+    color: white;
+    height: 35px;
+}
+.calculadoraEsquerda .imagem{
+    width: 450px;
+    height: 250px;
+    background-color: #11145C;
+    display: block;
+}
+.calculadoraEsquerda .imagem img{
+    margin-top:10px ;
+    width: 50%;
+    height: auto;
+}
+.calculadoraEsquerda form button.calculando{
+    background-color: #11145C;
+   border-radius: 25px;
+    width: 20%;
+    height: 30px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 25px;
+   
+}
+.calculadoraEsquerda input[type = "number"]{
+    height: 30px;
+    width: 120px;
+}
+.calculadoraEsquerda form{
+    display: flex;
+    flex-wrap: wrap;
+}
+form{
+    width: 600px;
+    margin-left: -75px;
+    margin-top: 20px;
+    justify-content: center;
+}
+form article{
+    width: 250px;
+    padding: 0;
+    
+}
+.calculadoraEsquerda form button{
+   margin-top: 30px;
+
+}

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background: rgb(9, 19, 62);
+    background: linear-gradient(90deg, rgba(9, 19, 62, 1) 5%, rgba(82, 113, 255, 1) 100%);
+    color: #ffffff;
+    box-shadow: -5px 2px 20px 2px #11145C;
+    position: fixed;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    src: local('IBM Plex Sans'), url('https://fonts.cdnfonts.com/s/15449/IBMPlexSans-Bold.woff') format('woff');
+}
+
+.navbar a {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+}
+
+.Brand {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'IBM Plex Sans';
+    font-size: 35px;
+}
+
+.navbar a {
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.navbar svg {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar a.active::after{
+    width: 100%;
+}
