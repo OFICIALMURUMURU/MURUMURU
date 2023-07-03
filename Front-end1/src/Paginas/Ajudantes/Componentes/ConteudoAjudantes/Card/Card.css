@@ -1,0 +1,119 @@
+.estrutura-cartao {
+    border-radius: 10px;
+    height: 100%;
+    width: 300px;
+    text-align: center;
+    background-color: #FFE5B4;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+.estrutura-cartao:hover {
+    box-shadow: 0 8px 20px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+}
+
+.header-cartao {
+    width: 300px;
+    height: 150px;
+    background: #277BC0;
+    border-radius: 5px;
+}
+
+.parafusos{
+    display:flex;
+    justify-content: space-between;
+    padding:5px;
+  
+}
+.parafusos img{
+    border-radius: 80%;
+    width: 23px;
+    height: 22px;
+}
+
+.parafuso-cartao {
+    width: 23px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #FFE5B4;
+    display: flex;
+}
+
+.img-cartao img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #277BC0;
+    border-radius: 60%;
+    position: sticky;
+}
+
+.conteudo-cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color:#191F55;
+    font-weight: bold;
+  
+}
+
+.local-ajudante{
+    color:#277BC0;
+}
+
+.habilidades-cartao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0px 10px 0px;
+    gap: 8px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades-cartao span{
+    color: white;
+    font-size: 16px;
+    font-weight: light;
+    background: #1F4690;
+    padding: 5px 10px 5px 10px;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.info-cartao{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap:45%;
+    margin:35px 0px 10px 0px;
+}
+
+.info-cartao span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#VerMais {
+    color: white;
+    font-size: 16px;
+    font-weight: light;
+    background: #1F4690;
+    padding: 5px 10px 5px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#VerMais :hover{
+    background:#191F55;
+}
+
+.habilidades-cartao span:hover{
+    background:#191F55;
+}

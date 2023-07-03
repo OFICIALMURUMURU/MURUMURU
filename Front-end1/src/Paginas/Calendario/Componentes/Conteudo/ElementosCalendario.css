@@ -1,0 +1,139 @@
+.quadrados{
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    justify-content: space-between;
+
+}
+
+.quadrados a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 23px;
+}
+.quadrados :hover{
+
+    color: white;
+    background: #1F4690;
+    transform: translateY(-5px) translateX(-5px);
+    box-shadow: 5px 5px #000000;
+}
+/* .quadrados .Seg{
+    margin-left: 6.5vh;
+}
+.quadrados .Ter{
+    margin-left: 7.7vh;
+}
+
+.quadrados .Qua{
+    margin-left: 7.7vh;
+}
+.quadrados .Qui{
+    margin-left: 7.7vh;
+}
+.quadrados .Sex{
+    margin-left: 7.7vh;
+}
+.quadrados .Sab{
+    margin-left: 7.7vh;
+} */
+.Dom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: #24062e80;
+    cursor: pointer;
+    margin: 1.3vh;
+}
+
+ .Seg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: #277BC0;
+    cursor: pointer;
+    margin: 0.5vh;
+} 
+
+.Ter{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 90px;
+     height: 90px;
+    background-color: #ca0e0e7e;
+    cursor: pointer;
+    margin: 1.3vh;
+}
+.Qua{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: #03a20089;
+    cursor: pointer;
+    margin: 1.3vh;
+}
+
+.Qui{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 90px;
+     height: 90px;
+    background-color: #277BC0;
+    cursor: pointer;
+    margin: 1.3vh;
+}
+
+.Sex{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 90px;
+     height: 90px;
+    background-color: #ca0e0e7e;
+    cursor: pointer;
+    margin: 1.3vh;
+}
+
+.Sab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: #24062e80;
+    cursor: pointer;
+    margin: 1.3vh;
+}
+
+@media (max-width:700px) {
+    .Dom , .Sab , .Seg, .Ter, .Qua, .Qui, .Sex {
+       width: 35px;
+       height: 35px;
+   
+   }
+   .quadrados {
+    font-size: 0.5em;
+   }
+
+
+}
+
+
+ 
+    
+  

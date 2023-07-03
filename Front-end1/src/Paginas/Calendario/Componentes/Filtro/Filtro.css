@@ -1,0 +1,85 @@
+.filtro-calendario{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 35px;
+    align-items: top;
+    width: 85%;
+    color:#191F55;
+}
+
+
+.Calendario span{
+    margin: 0px 63px 0px;
+    font-size: 1.3em;
+    color: #191F55;
+}
+
+.filtro-projeto{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    width: 50%;
+    margin-left: 64px;
+}
+
+.filtro-projeto select{
+    background-color: #FFE5B4;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.mes{
+    display:flex;
+    flex-direction: column;
+    
+
+    
+}
+.mes select{
+    background-color: #FFE5B4;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+
+.ano{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.ano select{
+    background-color: #FFE5B4;
+    height: 35px;
+    padding: 0px 25px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.procurar-ajudante p{
+    color: #191F55;
+}
+
+@media (max-width: 600px){
+    .filtro-calendario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    }
+
+    label{
+        margin-top: -29px;
+    } 
+
+    .Calendario span{
+        visibility: hidden;
+    }
+}

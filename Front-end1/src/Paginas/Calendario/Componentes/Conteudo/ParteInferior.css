@@ -1,0 +1,58 @@
+.ParteInferior {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 565px;
+}
+
+.ConteudoInferior {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.pt1,
+.pt2,
+.pt3,
+.pt4 {
+  width: 30px;
+  height: 30px;
+  margin: 1.2vh;
+}
+
+.pt1 {
+  background-color: #24062e80;
+}
+
+.pt2 {
+  background-color: #03a20089;
+}
+
+.pt3 {
+  background-color: #ca0e0e7e;
+}
+
+.pt4 {
+  background-color: #277BC0;
+}
+
+.ParteInferior span {
+  display: flex;
+  align-items: center;
+  color: #1F4690;
+  font-size: 1em;
+  margin-left: 189px;
+  margin-top: -4.9vh;
+}
+
+@media (max-width:700px) {
+
+  
+
+  .ParteInferior {
+display: none;
+  }
+
+
+}

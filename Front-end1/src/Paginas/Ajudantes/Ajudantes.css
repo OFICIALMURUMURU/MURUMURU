@@ -1,0 +1,14 @@
+.Ajudantes{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto-regular';
+}
+
+.Conteudo-Ajudantes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Carousel{
+    color: red;
+}
