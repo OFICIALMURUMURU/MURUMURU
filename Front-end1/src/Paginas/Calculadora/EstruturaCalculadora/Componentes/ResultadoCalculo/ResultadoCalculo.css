@@ -1,0 +1,54 @@
+.resultado-calculo{
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+    color: #191F55;
+}
+
+.texto-resultado hr {
+    background: #191F55;
+    width: 100%;
+    height: 2px;
+    margin: 8px 0px 8px 0px;
+}
+
+.estrutura-resultado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-resultado {
+    border: 5px solid #191F55;
+    background: white;
+    width: 40%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.caixa-resultado span {
+    font-size: 18px;
+}
+
+.caixa-resultado p {
+    font-size: 36px;
+}
+
+#operacao{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#res{
+    font-size: 14px;
+}
+
+@media (min-width:0px) and (max-width:480px) {
+
+    .caixa-resultado{
+        padding: 24px;
+        box-sizing: content-box;
+    }
+}

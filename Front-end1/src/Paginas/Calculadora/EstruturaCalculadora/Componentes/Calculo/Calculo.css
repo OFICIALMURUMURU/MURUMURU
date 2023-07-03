@@ -1,0 +1,138 @@
+#calculo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#calculo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 16px;
+}
+
+#seletores {
+    display: flex;
+    gap: 3%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+}
+
+.seletor {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.seletor select {
+    border: 5px solid #191F55;
+    height: 50px;
+}
+
+#dados {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tijolo-personalizado {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+
+
+.inputs label {
+    width: 100%;
+    height: 50px;
+}
+
+.inputs input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    border: 5px solid #191F55;
+}
+
+
+
+#calcular {
+    position: sticky;
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+#calcular input {
+    cursor: pointer;
+    color: #191F55;
+    border: 5px solid #191F55;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: auto;
+    padding: 5px 25px 5px 25px;
+    background-color: #FFFF;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+}
+
+#calcular input:active {
+    transform: scale(.96);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media (min-width:0px) and (max-width:480px) {
+
+    .tijolo-personalizado,
+    #dados {
+        flex-direction: column;
+    }
+
+    .inputs {
+        width: 50%;
+    }
+
+    #seletores{
+        padding-top: 24px;
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .tijolo-personalizado,
+    #dados {
+        flex-direction: column;
+    }
+
+    .inputs {
+        width: 50%;
+    }
+}
+

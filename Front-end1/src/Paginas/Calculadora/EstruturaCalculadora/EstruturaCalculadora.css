@@ -1,0 +1,36 @@
+.estrutura-calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'roboto-regular';
+    font-weight: 600;
+}
+
+.calculadora {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    gap: 16px;
+    padding: 16px;
+    margin: 30px;
+    background: #FFE5B4;
+    border: 5px solid #191F55;
+}
+
+#calculo-exterior {
+    width: 100%;
+    height: 50%;
+    background: #FFE5B4;
+    border: 5px solid #191F55;
+}
+
+#resultado {
+    width: 100%;
+    height: 50%;
+    background: #FFE5B4;
+    border: 5px solid #191F55;
+    box-sizing: content-box;
+}
