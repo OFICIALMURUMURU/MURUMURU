@@ -1,0 +1,28 @@
+.conteudo-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:789px) {
+
+    .conteudo-portfolio .lojas_regiao,
+    .conteudo-portfolio .principais_parceiros,
+    .conteudo-portfolio .descontos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    @media screen and (max-width:480px) {
+
+        .conteudo-portfolio .lojas_regiao,
+        .conteudo-portfolio .principais_parceiros,
+        .conteudo-portfolio .descontos {
+            flex-direction: column;
+        }
+    }
+}

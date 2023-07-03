@@ -1,0 +1,86 @@
+.estrutura-filtro-obra{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 35px;
+    align-items: top;
+    width: 85%;
+    color:#191F55;
+}
+
+.pesquisa-filtro{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    width: 50%;
+}
+
+.pesquisa-filtro input{
+    width: 100%;
+    height: 35px;
+   background-color: #FFE5B4;;
+   padding: 0px 0px 0px 10px;
+   border-radius: 5px;
+box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.nivel-filtro{
+    display:flex;
+    flex-direction: column;
+}
+.nivel-filtro select{
+    background-color: #FFE5B4;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+
+.localizacao-filtro{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.localizacao-filtro input{
+    background-color: #FFE5B4;
+    height: 35px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.localizacao-filtro button{
+    margin: 10px 0;
+    width:100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FFE5B4;
+    cursor: pointer;
+    align-self: flex-end;
+    transition:0.2s;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.localizacao-filtro button:hover{
+    transform: scale(1.03);
+}
+
+.procurar-MaoDeObra p{
+    color: #191F55;
+}
+
+@media  screen and (max-width:480px) {
+    .estrutura-filtro-obra{
+        flex-direction: column;
+    }
+    .estrutura-filtro-obra .localizacao-filtro input,
+    .estrutura-filtro-obra .pesquisa-filtro input{
+        width: 85vw;
+
+    }
+    
+    
+}

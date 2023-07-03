@@ -1,0 +1,195 @@
+.container-login {
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto-regular';
+}
+
+.conteudo-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    width: 100%;
+}
+
+.text-login {
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+    padding: 5rem 0;
+    color: #277BC0;
+}
+
+.row-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.column-login {
+    padding: 1rem 0;
+    flex: 1;
+    padding-left: 150px;
+    padding-bottom: 150px;
+}
+
+.form-login {
+    justify-content: start;
+    /* background-color: lightgrey; */
+    color: #277BC0;
+    /* padding: 30px; */
+    width: 440px;
+    height: 250px;
+    margin-bottom: 35vh;
+
+}
+
+.inputbox-login {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.inputbox-login label {
+    font-size: 18px;
+}
+
+.inputbox-login ::placeholder {
+
+    color: #277BC0;
+}
+
+
+.inputbox-login input {
+    background-color: #CFE3F3;
+    width: 400px;
+    height: 60px;
+    border-radius: 7px;
+    padding-left: 15px;
+    margin-bottom: 8%;
+}
+
+.esqueceu-senha {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+}
+
+.esqueceu-senha a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+#link {
+    color: #277BC0;
+}
+
+
+.inputbox-login #submit {
+    width: 400px;
+    height: 60px;
+    border-radius: 7px;
+    padding:0;
+    background-color: #FFE5B4;
+    color: #277BC0;
+}
+
+.login-externo {
+    display: flex;
+    flex-direction: wrap;
+    width: 400px;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+
+.logo-externo {
+    outline: 2px solid #C2C2C2;
+    padding: 15px 45px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hr-form {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.conteudo-login div hr {
+    background: #277BC0;
+    width: 35%;
+    height: 0.5px;
+}
+
+
+
+.hr-form span {
+    color: #277BC0;
+    width: 35%;
+    text-align: center;
+}
+
+@media  screen and (max-width: 1100px) {
+    .conteudo-login {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #img-logo{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .conteudo-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #img-logo {
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .inputbox-login input {
+        margin: 20px auto 33px auto;
+        width: 90%;
+    }
+    .inputbox-login #submit {
+        width: 90%;
+    }
+    .login-externo{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .login-externo .logo-externo{
+        width: 20%;
+        height: auto;
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .esqueceu-senha a {
+
+        margin-right: 8%;
+    }
+    
+}
+
+
+

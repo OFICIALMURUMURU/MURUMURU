@@ -1,0 +1,228 @@
+.containerperfil {
+    width: 100%;
+}
+
+.div_ancora {    
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+
+}
+
+.ancora_ajudantes {
+    font-family:  Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #191F55;
+    text-decoration: none;
+}
+
+.perfil_do_ajudante {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.quadrado_ajudante {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #FFE5B4;
+    width: 25%;
+    height: 75%;
+    border-radius: 2%;
+}
+
+
+
+.nome_perfil_ajudante p {
+    display: flex;
+    font-weight: bold;
+    color: #191F55;
+    font-size: 24px;
+}
+
+.div_perfil_ajudante {    
+    border-radius: 50%;
+    border: 4px solid #277BC0;  
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191F55;
+    font-size: 18px;
+}
+
+h3 {
+    color: #191F55;
+}
+
+/* .mini_container {
+    display: flex;
+} */
+
+.texto_ajudante {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.interesse_frase {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.estrelinhas svg {
+    cursor: pointer;
+}
+
+.frase_ajudante p{
+    font-size: 24px;
+}
+
+.botoes_perfil_ajudante {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 50%;
+}
+
+
+.botoes_perfil_ajudante a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F4690;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 7px 10px 7px; 
+}
+
+.habilidades_perfil_ajudante {
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.sub_titulo_perfil {
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191F55;
+}
+
+.habilidade_ajudante_perfil {
+    background-color: #1F4690;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.div_foto_comentario {
+    display: flex;
+}
+
+.foto_perfil_comentario {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario_pag_perfil {
+    margin-top: 10%;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191F55;
+    font-weight: bold;  
+}
+
+.comentarios_indicacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foto_perfil_comentario {
+    width: 10%;    
+}
+
+.div_foto_comentario {
+    display: flex;
+    align-items: center;
+}
+
+.foto_perfil_comentario {
+    margin-right: 10px;
+}
+
+.nome_comentario_perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo_perfil_ajudante {
+    margin-top: -18px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191F55;     
+}
+
+.nome_ajudante_perfil {
+    font-weight: bold;
+}
+
+.div_projeto_perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.div_projeto_perfil {
+    width: 80%;
+}
+
+.sub_titulo_projeto {
+    margin-top: 45%;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191F55;
+    font-weight: bold;
+}
+
+.nome_projeto_ajudante {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191F55;
+    font-weight: bold
+}
+
+.descricao_projeto_ajudante {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1F4690;
+    margin-right: 5px;
+}
+
+.ancora_projeto_feito {
+    text-decoration: none;
+    font-family:  Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #191F55;
+}
+
+.perfil_ajudante_like svg  {
+    cursor: pointer;
+    width: 55%;
+    height: 5vh;
+    color: #1F4690;
+    
+}
+
+
+.botao_perfil_ajudante {
+    display: flex;  
+}
+
+

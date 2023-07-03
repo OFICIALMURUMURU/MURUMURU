@@ -1,0 +1,12 @@
+.maodeobra{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto-regular';
+}
+
+
+.conteudo-obra{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

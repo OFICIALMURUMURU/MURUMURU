@@ -1,0 +1,198 @@
+.banner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 100%;
+  height: 80vh;
+  z-index: 1;
+}
+
+
+.banner img {
+  width: 500px;
+  height: 500px;
+  padding-left: 40px;
+  animation-name:entrada-direita ;
+  animation-duration: .5s;
+  animation-delay: .9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes entrada-direita {
+  0% {
+    transform: translateX(80%);
+    
+    
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    
+  }
+
+
+
+  
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #277BCD;
+}
+
+.titulo h1 {
+  font-size: 64px;
+  animation-name:aparecimento;
+  animation-duration: .8s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  text-transform: uppercase;
+}
+
+.titulo h2 {
+  font-size: 36px;
+  animation-name:aparecimento ;
+  animation-duration: .8s;
+  animation-delay: .4s;
+  opacity: 0;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+
+}
+
+.botoes button {
+  color: #277BCD;
+  font-size: 22px;
+  background: none;
+  border: 2px solid #277BCD;
+  padding: 10px;
+  width: 200px;
+    cursor: pointer;
+}
+
+.botoes button {
+  opacity: 0;
+  animation-name: aparecimento;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: .8s;
+
+}
+
+#cadastro {
+  background: #277BCD;
+  color: white;
+}
+
+
+@keyframes aparecimento {
+
+  100% {
+    opacity: 100%;
+    /* Termina com opacidade total */
+  }
+
+}
+@media screen and (max-width:1479px){
+  .banner img {
+      width: 40%;
+      height: auto;
+  }
+  .texto{
+    width: 50%;
+    margin: 0 20px;
+  text-align: center;
+  }
+  .titulo h1{
+    font-size: 3.2rem;
+  }
+  .titulo h2{
+    font-size: 2.2rem;
+  }
+  .botoes #cadastro, .botoes #login-button{
+    width: 160px;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width:789px){
+  .banner{
+    text-align: center;
+    justify-content: center;
+
+  }
+  @keyframes entrada-direita-mobile {
+    0% {
+      opacity: 0;
+    }
+    100%{
+      opacity: .3;
+    }
+    
+  }
+    .banner img{
+      z-index: 1;
+      margin: 70px auto 0 auto;
+      width: 80%;
+      filter: blur(3px);
+      padding-left: 0;
+      animation-name: entrada-direita-mobile;
+      animation-delay: 1.5s;
+    }
+    .texto{
+      width: 90%;
+      margin: 0 20px;
+      position: absolute;
+      z-index: 2;
+    }
+    .titulo h1{
+      font-size: 2.5rem;
+      margin-top: -30px;
+    }
+    .titulo h2{
+      margin-top: 5px;
+      font-size: 2rem;
+    }
+    .botoes #cadastro, .botoes #login-button{
+      width: 120px;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+}
+@media screen and (max-width:480px) {
+  .banner img{
+    display: none;
+  }
+  
+}

@@ -1,0 +1,22 @@
+.lojas{
+    width:60%;
+    margin: 15px 0px -56px 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #191F55;
+}
+
+@media screen and (max-width:480px) {
+    .lojas{
+        text-align: center;
+        margin: 45px 0 25px 0 ;
+        gap:70px;
+    }
+    .lojas-cards{
+        display: flex;
+        flex-direction: column;
+        gap:70px;
+    }
+    
+}

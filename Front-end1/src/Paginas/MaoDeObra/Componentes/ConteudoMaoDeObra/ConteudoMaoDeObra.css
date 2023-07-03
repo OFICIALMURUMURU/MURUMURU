@@ -1,0 +1,17 @@
+.conteudo-maodeobra{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.maodeobra-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

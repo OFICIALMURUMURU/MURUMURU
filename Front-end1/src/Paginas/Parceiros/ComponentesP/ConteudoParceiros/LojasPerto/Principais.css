@@ -1,0 +1,14 @@
+.LojasPerto{
+    width:60%;
+    margin: 15px 0px -56px 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #191F55;
+}
+
+.linha img{
+    width: 100px;
+    height: 2px;
+    margin-top: -15px;
+}

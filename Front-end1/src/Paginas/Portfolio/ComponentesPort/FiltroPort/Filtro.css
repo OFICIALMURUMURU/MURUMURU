@@ -1,0 +1,81 @@
+.estrutura-filtro-port{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    gap: 35px;
+    align-items: top;
+    width: 85%;
+    color:#191F55;
+    margin: 0 auto;
+}
+
+.filtro-portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.pesquisa-filtro select,  .filtro-portfolio select{
+    background-color: #FFE5B4;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.nivel-filtro{
+    display:flex;
+    flex-direction: column;
+}
+.nivel-filtro select{
+    background-color: #FFE5B4;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+
+.localizacao-filtro{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.localizacao-filtro select{
+    background-color: #FFE5B4;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.localizacao-filtro button{
+    margin: 10px 0;
+    width:100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FFE5B4;
+    cursor: pointer;
+    align-self: flex-end;
+    transition:0.2s;
+    box-shadow: 0px 6px 0px 0px #E8AA42;
+}
+
+.localizacao-filtro button:hover{
+    transform: scale(1.03);
+}
+
+.procurar-ajudante p{
+    color: #191F55;
+}
+@media screen and (max-width:789px) {
+    .estrutura-filtro-port {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    
+}

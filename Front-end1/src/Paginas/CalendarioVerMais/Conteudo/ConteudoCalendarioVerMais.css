@@ -1,0 +1,127 @@
+.Estrutura-VerMaisCalendario{
+    background-color: #FFE5B4;
+    height: 108vh;
+    margin: 0px 11vh 6vh;
+    display: flex;
+    background-color: #FFE5B4;
+    margin-top: 10vh;
+  
+}
+
+
+ .Cont-Calendario{
+    margin-left: 6vh;
+    background-color: #277BC0;
+    height: 87vh;
+    margin-top: 73px;
+    width: 169vh;
+}
+    
+
+.LadoEsquerdo span{
+    font-size: 1.4em;
+    display: flex;
+    color: #191F55;
+    margin-left: 75px;
+}
+.LadoDireito{
+    display: flex;
+    flex-direction: column;
+    margin-left: 87vh;
+    margin-top: -359px;
+}
+.LadoDireito span{
+    font-size: 1.4em;
+    color: #191F55;
+}
+.LadoDireito p{
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 1.2em;
+}
+
+
+.FotosProjetos{
+    cursor: pointer;
+    display: flex;
+    margin-top: 12vh;
+    margin-left: 52px;
+
+}
+.FotosProjetos img{
+    width: 161px;
+    height: 161px;
+    padding: 3px;
+}
+
+.FotosProjetos2 img{
+    width: 161px;
+    height: 161px;
+    padding: 3px;
+}
+.FotosProjetos2{
+    cursor: pointer;
+    display: flex;
+  
+    margin-left: 52px;
+}
+
+
+@media (max-width:600px){
+    .Estrutura-VerMaisCalendario{
+    
+        height: 70vh;
+        margin: 30px 0vh 0vh;
+     
+    }
+     .Cont-Calendario{
+
+        margin-left: 1vh;
+        margin-top: 93px;
+        width: 45vh;
+        height: 56vh;
+    } 
+    .FotosProjetos img{
+        margin-top: 60px;
+        width: 90px;
+        height: 90px;
+    }
+    .FotosProjetos2 img{
+        
+        width: 90px;
+        height: 90px;
+    }
+    .FotosProjetos{
+    margin-left: 4px;
+    }
+   .FotosProjetos2{
+    margin-left: 4px;
+    }
+    .LadoDireito span {
+        margin-top: 63px;
+     margin-left: -60vh;
+    font-size: 1em;
+    }
+    .LadoDireito p {
+        width: 131px;
+        flex-direction: column;
+        margin-left: -60vh;
+        font-size: 8.7px
+    }
+    .LadoDireito {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px; /* Ajuste o valor da margem esquerda conforme necessário */
+  
+      }
+}
+@media  screen and(max-width:600px) {
+    .logo-hamburguer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    
+    
+}

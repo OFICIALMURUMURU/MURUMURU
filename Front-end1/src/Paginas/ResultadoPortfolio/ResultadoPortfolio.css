@@ -1,0 +1,25 @@
+.estrutura-resultado-portfolio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.ancora-portfolio {
+    width: 80%;
+    align-self: center;
+}
+
+.ancora-portfolio a{
+    text-decoration: none;
+}
+
+.ancora-portfolio svg{
+    height: 16px;
+}
+@media screen and (max-width:790px) {
+    .estrutura-resultado-portfolio{
+       
+        margin-top: 7%;
+    }
+    
+}

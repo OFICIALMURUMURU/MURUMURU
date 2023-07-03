@@ -1,0 +1,56 @@
+.portfolio-post span{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.portfolio-post{
+        margin: 24px;
+}
+
+.estrutura-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-post img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #191F55;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.imagem-post img:hover{
+    opacity: 0.6;
+}
+
+.metade-baixo {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.texto-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.likes {
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.likes svg{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.likes svg:hover{
+    transform: scale(1.5);
+}
+
+.likes svg:active{
+    transform: scale(1);
+}

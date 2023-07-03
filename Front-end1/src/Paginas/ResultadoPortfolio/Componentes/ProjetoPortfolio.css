@@ -1,0 +1,126 @@
+.projeto-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.projeto-portfolio h1 {
+    text-transform: uppercase;
+}
+
+.header-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.imagem-portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.imagem-portfolio img{
+        
+    width: 60%;
+
+}
+
+.imagem-portfolio img {
+    border: 5px solid #191F55;
+    width: 25%;
+}
+
+.descricao-portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: flex-start;
+}
+
+.nome-autor svg {
+    width: 50px;
+    height: 50px;
+}
+
+
+.especificacoes-comentarios {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 250px;
+}
+
+.especificacoes-post {
+    width: 50%;
+}
+.comentarios-post {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentarios-post div {
+    display: flex;
+}
+
+.texto-comentario {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentarios-post div svg {
+    width: 50px;
+    height: 50px;
+}
+
+.nome-autor {
+    display: flex;
+}
+
+.direita-header-portfolio{
+    display: flex;
+    gap: 8px;
+}
+
+.direita-header-portfolio svg {
+    width: 25px;
+    height: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.direita-header-portfolio svg:hover {
+    transform: scale(1.5);
+}
+
+.direita-header-portfolio svg:active {
+    transform: scale(1);
+}
+@media screen and (max-width:790px) {
+    .especificacoes-comentarios {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        gap: 0;
+    }
+    .imagem-portfolio img{
+        
+            width: 50%;
+        
+    }
+    .imagem-portfolio p{
+        font-size: 16px;
+    }
+    .comentarios-post , .especificacoes-comentarios p {
+        font-size: 14px;
+    }
+
+    
+}

@@ -1,0 +1,44 @@
+/* ConteudoParceiros.css */
+
+.estrutura-conteudo-parceiros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+
+.slider-wrapper {
+  width: 75vw;
+  height: 70vh;
+  margin: 30px auto;
+  text-align: center;
+  
+}
+.slider-wrapper h2{
+  margin: 5px 0;
+
+}
+.slick-dots{
+  margin-bottom: 40px;
+}
+  
+
+@media screen and (max-width: 480px) {
+  .estrutura-conteudo-parceiros {
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .lojas-cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .slider-wrapper h2 {
+    text-align: center;
+  }
+}
