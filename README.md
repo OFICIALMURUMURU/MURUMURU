@@ -32,6 +32,28 @@ Os bloquinhos da MURUMURU foram desenvolvidos utilizando as seguintes tecnologia
 - API Java com Spring Boot :sunny::hiking_boot:: Um framework Java utilizado para desenvolver a camada de back-end da plataforma, fornecendo serviços e endpoints para a interação com o front-end.
 - JavaScript :globe_with_meridians:: Uma lingugem aplicada na calculadora e interações.
 
+# Nossos colaboradores e desenvolvedores da MURUMURU :bricks:
+<h2>Para essas estruturas nascerem e se concretizarem, aqui estão os construtores dessa obra:</h2>
+
+<a href="https://www.linkedin.com/in/valentine-colombo-cechinel-9054bb275/">VALENTINE COLOMBO - Product Owner </a>
+<br>
+<a href="https://www.linkedin.com/in/leonardo-00-sousa/">LEONARDO SOUSA - Scrum </a>
+<br>
+<a href="https://www.linkedin.com/in/guilherme-pimentadev/">GUILHERME PIMENTA - Full Stack </a>
+<br>
+<a href="https://www.linkedin.com/in/gabriel-alves-gabriel/">GABRIEL ALVES GABRIEL - Full Stack </a>
+<br>
+<a href="https://www.linkedin.com/in/giovanni-moreira-64654a254/">GIOVANNI MOREIRA - Back-End </a>
+<br>
+<a href="https://www.linkedin.com/in/guimuniiz/">GUILHERME MUNIZ - Front-End </a>
+<br>
+<a href="https://www.linkedin.com/in/maria-luisa-mendes-2b6597236/">MARIA LUISA MENDES - Front-End </a>
+<br>
+<a href="https://www.linkedin.com/in/joão-pedro-borges-247862240/">JOÃO PEDRO - Front-End </a>
+
+![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+
+
 ## Requisitos do Sistema
 
 Para executar e utilizar a plataforma MURUMURU, é necessário ter os seguintes requisitos em seu ambiente de desenvolvimento:
