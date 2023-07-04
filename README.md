@@ -1,6 +1,6 @@
 # MURUMURU
 
-### Nós somos a MURUMURU
+### Nós somos a MURUMURU :blue_heart::yellow_heart:
 
 ![murumuru (4)](https://github.com/OFICIALMURUMURU/MURUMURU/assets/135625151/7cb6f9c2-7269-43b7-b30e-80565a8fdde8)
 
