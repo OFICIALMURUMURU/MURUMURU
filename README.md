@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# MURUMURU
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Nós somos a MURUMURU
 
-## Available Scripts
+![murumuru (4)](https://github.com/OFICIALMURUMURU/MURUMURU/assets/135625151/7cb6f9c2-7269-43b7-b30e-80565a8fdde8)
 
-In the project directory, you can run:
 
-### `npm start`
+<p> Uma plataforma digital criada com o objetivo de promover profissionais da área da construção civil que trabalham de maneira autônoma. Desenvolvido em ReactJS, MySQL e utilizando uma API Java com o framework Spring Boot, o projeto visa facilitar o trabalho desses profissionais, proporcionando recursos que otimizam o tempo, diminuem o acúmulo de tarefas e promovem a visibilidade de suas habilidades e competências. </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Recursos Destacados
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A MURUMURU apresenta diversas funcionalidades para atender às necessidades dos profissionais da área. Dois recursos principais são nossos pilares:
 
-### `npm test`
+### Calculadora
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A calculadora é uma ferramenta que tem como objetivo diminuir o tempo de trabalho e o acúmulo de tarefas que causam cansaço físico e mental. Ela permite que os profissionais da construção civil realizem cálculos de forma rápida e precisa, proporcionando maior agilidade e eficiência em seu trabalho diário.
 
-### `npm run build`
+A calculadora é desenvolvida em ReactJS, JavaScrpit e consome uma API Java desenvolvida com o framework Spring Boot. Essa integração permite que os cálculos sejam realizados de forma segura e confiável.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Portfólio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O portfólio é uma seção especial da MURUMURU, construída com o objetivo de incentivar a visibilidade de pedreiros e pedreiras. Através do portfólio, os profissionais podem criar um perfil pessoal, destacando suas habilidades, experiências, projetos realizados e depoimentos de clientes satisfeitos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O portfólio é desenvolvido em ReactJS e utiliza o MySQL como banco de dados para armazenar as informações dos profissionais. Com uma interface amigável e intuitiva, os usuários podem facilmente criar e personalizar seus perfis, aumentando suas chances de serem encontrados por potenciais clientes e oportunidades de trabalho.
 
-### `npm run eject`
+## Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Os bloquinhos da MURUMURU foram desenvolvidos utilizando as seguintes tecnologias:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ReactJS :cyclone:: Um framework JavaScript para construção de interfaces de usuário interativas e responsivas.
+- MySQL :dolphin:: Um sistema de gerenciamento de banco de dados relacional, utilizado para armazenar as informações dos profissionais e seus portfólios.
+- API Java com Spring Boot :sunny::hiking_boot:: Um framework Java utilizado para desenvolver a camada de back-end da plataforma, fornecendo serviços e endpoints para a interação com o front-end.
+- JavaScript :globe_with_meridians:: Uma lingugem aplicada na calculadora e interações.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Requisitos do Sistema
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Para executar e utilizar a plataforma MURUMURU, é necessário ter os seguintes requisitos em seu ambiente de desenvolvimento:
 
-## Learn More
+- Node.js e npm: Para instalar e executar o ambiente de desenvolvimento ReactJS.
+- Java Development Kit (JDK): Para compilar e executar a API Java com o framework Spring Boot.
+- MySQL: Para criar o banco de dados e armazenar as informações dos profissionais e seus portfólios.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Instalação e Configuração
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aqui estão os passos básicos para configurar e executar a plataforma MURUMURU em seu ambiente local:
 
-### Code Splitting
+1. Clone o repositório do projeto para sua máquina local.
+2. Certifique-se de ter o Node.js e npm instalados em sua máquina. Você pode baixá-los e instalá-los a partir do site oficial do Node.js: [https://nodejs.org](https://nodejs.org).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Certifique-se de ter o Java Development Kit (JDK) instalado. Você pode baixar o JDK apropriado para o seu sistema operacional a partir do site oficial da Oracle: [https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### Analyzing the Bundle Size
+Instale o MySQL em sua máquina. Você pode baixar o MySQL Community Edition gratuitamente em: [https://dev.mysql.com/downloads/installer/](https://dev.mysql.com/downloads/installer/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Crie um banco de dados no MySQL para a aplicação MURUMURU. Anote as informações de conexão, como nome do banco de dados, usuário e senha.
 
-### Making a Progressive Web App
+Abra o terminal e navegue até o diretório do projeto MURUMURU clonado anteriormente.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Instale as dependências do front-end ReactJS executando o seguinte comando:
+```
+npm install
+```
 
-### Advanced Configuration
+Configure as variáveis de ambiente necessárias para a API Java com Spring Boot. Crie um arquivo `.env` na raiz do diretório do projeto e defina as variáveis de ambiente apropriadas, como as informações de conexão do banco de dados MySQL e outras configurações necessárias.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Execute a aplicação ReactJS localmente usando o seguinte comando:
+```
+npm start
+```
 
-### Deployment
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Para executar a API Java com Spring Boot, você precisará de um ambiente de desenvolvimento compatível, como Eclipse, IntelliJ IDEA ou qualquer outra IDE de sua preferência. Importe o projeto Java para a sua IDE e execute-o.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Com esses passos, você deve conseguir configurar e executar a MURUMURU localmente em seu ambiente de desenvolvimento. Certifique-se de seguir as instruções e adaptá-las de acordo com as configurações específicas do seu sistema e ambiente.
